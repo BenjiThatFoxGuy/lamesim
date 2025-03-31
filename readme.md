@@ -3,7 +3,7 @@ lamesim
 
 lamesim is a LaMetric Simulator in the web stack. This project is a fork of the original repository and includes fixes to address CORS issues by using a CORS proxy. 
 
-You can use it directly at: https://benjithatfoxguy.github.io/lamesim/
+You can use it directly at: https://lamesim.benjifox.gay
 
 Running
 -------
