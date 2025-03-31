@@ -61,6 +61,9 @@
         ;
 
         window.setTimeout(fetchLoop, getFetchFrequency());
+        const lock = document.createElement('meta');
+        lock.name = 'darkreader-lock';
+        document.head.appendChild(lock);
     }
 
     // fire off loops
