@@ -1,6 +1,8 @@
 /* remove the body margin */
 body {
     margin: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 /* center the simulator view */
@@ -18,17 +20,25 @@ main {
 
 table {
     border-collapse: collapse;
+    background-color: #1e1e1e; /* Dark table background */
+    color: #e0e0e0; /* Light text color */
 }
 
 th, td {
-    border: 1px solid black;
+    border: 1px solid #444; /* Subtle border color */
     padding: 0.5rem;
 }
 
 #raw {
     max-width: 20rem;
+    background-color: #1e1e1e; /* Dark background for raw section */
+    color: #e0e0e0; /* Light text color */
 }
 
 #raw pre {
     white-space: pre-wrap;
+    background-color: #1e1e1e; /* Dark background for pre */
+    color: #e0e0e0; /* Light text color */
+    padding: 0.5rem;
+    border-radius: 4px;
 }
