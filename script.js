@@ -4,7 +4,8 @@
 
     function getFetchUrl() {
         let userValue = document.querySelector('#url').value;
-        let url = userValue;
+        let corsProxy = 'https://corsproxy.io/?url=';
+        let url = corsProxy + userValue;
 
         return url;
     }
